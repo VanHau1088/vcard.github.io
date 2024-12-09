@@ -1,23 +1,23 @@
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-
-
   background: rgb(60, 88, 151);
-  padding: 100px 20px 40px;
+
   min-height: 100%;
 }
 
 .container {
   background-color: #ffffff;
-  padding: 20px;
+  padding: 100px 100px 50px 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 171px;
 }
 
 h1 {
@@ -25,10 +25,70 @@ h1 {
 }
 
 p {
-  color: #555;
+  font-size: 13px;
+  color:rgb(60, 88, 151);
+  font-weight: 700;
 }
 
 
 span { 
   font-weight: bold;
+}
+
+.name {
+  position: absolute;
+  top: 74px;
+  left: 88px;
+}
+
+.vcard {
+  margin-top: 65px;
+}
+
+.profile {
+  display: flex;
+  flex-grow: col;
+  flex-direction: column;
+}
+
+p.phone {
+  display: flex
+;
+  flex-direction: column;
+}
+
+p.Email {
+  display: flex
+;
+  flex-direction: column;
+}
+
+
+p.profile_website {
+  display: flex
+;
+  flex-direction: column;
+}
+
+p.profile_address {
+  display: flex;
+  flex-direction: column;
+}
+
+
+span {
+  padding-top: 5px;
+  text-decoration: none !important;
+  color: #3f345f;
+  transition: all .3s ease 0s;
+  font-weight: 300;
+}
+
+a{
+  padding-top: 5px;
+  text-decoration: none !important;
+  color: rgb(77, 101, 155);
+  transition: all .3s ease 0s;
+  font-weight: 300;
+  font-size: 13px;
 }
