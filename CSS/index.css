@@ -38,7 +38,8 @@ span {
 .name {
   position: absolute;
   top: 74px;
-  left: 88px;
+  left: 80px;
+  text-align: center;
 }
 
 .vcard {
@@ -91,4 +92,13 @@ a{
   transition: all .3s ease 0s;
   font-weight: 300;
   font-size: 13px;
+}
+
+p#fullName {
+  font-size: 30px;
+  margin: 0px 0px 12px 0px;
+}
+
+span#job {
+  font-size: 15px;
 }
