@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   const phoneNumber = queryParams.get('phoneNumber');
   const email = queryParams.get('email');
   const address = queryParams.get('address');
-  const profileImage = queryParams.get('profileImage');
+  // const profileImage = queryParams.get('profileImage');
   const website = queryParams.get('website');
   const job = queryParams.get('job');
 
@@ -24,11 +24,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById('address').textContent = address;
   }
 
-  if (profileImage) {
-    const imageElement = document.getElementById('profileImage');
-    imageElement.src = profileImage;
-    imageElement.style.display = 'block';
-  }
+  // if (profileImage) {
+  //   const imageElement = document.getElementById('profileImage');
+  //   imageElement.src = profileImage;
+  //   imageElement.style.display = 'block';
+  // }
 
   if (website) {
     document.getElementById('website').textContent = website;
