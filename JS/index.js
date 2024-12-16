@@ -24,12 +24,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     document.getElementById('address').textContent = address;
   }
 
-  // if (profileImage) {
-  //   const imageElement = document.getElementById('profileImage');
-  //   imageElement.src = profileImage;
-  //   imageElement.style.display = 'block';
-  // }
-
   if (website) {
     document.getElementById('website').textContent = website;
   }
@@ -37,4 +31,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
   if (job) {
     document.getElementById('job').textContent = job;
   }
+
+  // if (profileImage) {
+  //   const imageElement = document.getElementById('profileImage');
+  //   imageElement.src = profileImage;
+  //   imageElement.style.display = 'block';
+  // }
+
+
 });
